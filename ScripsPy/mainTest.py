@@ -67,7 +67,7 @@ def  getATCheckDict (antennaType: int, apertura: str = "") -> dict:
         case 3:
             outputType["þÿ\x00C\x00a\x00s\x00i\x00l\x00l\x00a\x00 \x00d\x00e\x00 \x00v\x00e\x00r\x00i\x00f\x00i\x00c\x00a\x00c\x00i\x00ó\x00n\x001\x002"] = "Yes"
             if apertura:
-                outputType["Texto43"] = apertura
+                outputType["Texto43"] = apertura #angulo apertura
     return outputType
 
 
@@ -157,9 +157,9 @@ if __name__ == "__main__":
             lon_o_data = getCoordDict(row[3], mode="lon_o")
             lat_d_data = getCoordDict(row[6], mode="lat_d")
             lon_d_data = getCoordDict(row[5], mode="lon_d")
-            freqBand   = getOBCheckDict(int(row[22]))
-            typeAntena = getATCheckDict(int(row[22]), apertura = row[12].strip())    
-            # Verificando si alguna coordenada no se leyó correctamente
+            freqBand   = getOBCheckDict(int(row[25]))
+            typeAntena = getATCheckDict(int(row[24]), apertura = row[23].strip())    
+            # Verificando si alguna coordenada no se leyo correctamente
             if len(lat_o_data) != 3:
                 logging.critical("File Numbered {}: Error con Latitud de Origen")
             if len(lon_o_data) != 3:
@@ -178,23 +178,21 @@ if __name__ == "__main__":
                 **lon_d_data,
                 **freqBand,
                 **typeAntena,
-                "Texto26": row[11].strip(), #ASNMO
-                "Texto27": row[8].strip(), #direccion de punto inicio
-                "Texto28": row[11].strip(),  #ASNMF
-                "Texto37": row[9], #direccion de punto final
+                "Texto26": row[8].strip(),  #ASNMO
+                "Texto27": row[10].strip(), #direccion de punto inicio
+                "Texto28": row[9].strip(),  #ASNMF
+                "Texto37": row[11], #direccion de punto final
                 #-- CARACTERISTICAS DEL EQUIPO --
-                "Texto39": row[13].strip(), #MARCA
-                "Texto40": row[10].strip(), #MODELO
-                #"Texto41":  POTENCIA
-                #"Texto42":  TIPO MODULACION
+                "Texto39": row[12].strip(), #MARCA
+                "Texto40": row[13].strip(), #MODELO
+                "Texto41": row[14].strip(), #POTENCIA
+                "Texto42": row[15].strip(), #TIPO MODULACION
                 #-- CARACTERISTICAS DE ANTENA --
-                #"Texto43":  ANGULO DE APERTURA
-                #"Texto44":  GANANCIA
-                #"Texto45":  POLARIZACION
-                #"Texto46":  MODELO
-                #"Texto47":  MARCA
-                #"Texto48":  comentario
-                #"Texto48": row[10].strip()
+                "Texto44": row[19].strip(), #GANANCIA
+                "Texto45": row[18].strip(), #POLARIZACION
+                "Texto46": row[17].strip(), #MODELO
+                "Texto47": row[16].strip(), #MARCA
+                "Texto48": row[22].strip()  #comentarios
             }
             try:
                 fillpdfs.write_fillable_pdf(
