@@ -1,0 +1,117 @@
+2025-07-28 14:17:30,926 root:INFO    :: Iniciando script
+2025-07-28 14:17:30,927 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 14:17:30,927 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 14:17:30,999 root:INFO    :: File Numbered 1: OK
+2025-07-28 14:17:31,082 root:INFO    :: File Numbered 2: OK
+2025-07-28 14:17:31,154 root:INFO    :: File Numbered 3: OK
+2025-07-28 14:17:31,225 root:INFO    :: File Numbered 4: OK
+2025-07-28 14:17:31,300 root:INFO    :: File Numbered 5: OK
+2025-07-28 14:17:31,388 root:INFO    :: File Numbered 6: OK
+2025-07-28 14:17:31,462 root:INFO    :: File Numbered 7: OK
+2025-07-28 14:17:31,463 root:INFO    :: Script Ended
+2025-07-28 14:18:11,318 root:INFO    :: Iniciando script
+2025-07-28 14:18:11,318 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 14:18:11,319 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 14:18:30,027 root:INFO    :: Iniciando script
+2025-07-28 14:18:30,027 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 14:18:30,028 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 14:18:30,108 root:INFO    :: File Numbered 1: OK
+2025-07-28 14:18:30,182 root:INFO    :: File Numbered 2: OK
+2025-07-28 14:18:30,269 root:INFO    :: File Numbered 3: OK
+2025-07-28 14:18:30,349 root:INFO    :: File Numbered 4: OK
+2025-07-28 14:18:30,425 root:INFO    :: File Numbered 5: OK
+2025-07-28 14:18:30,522 root:INFO    :: File Numbered 6: OK
+2025-07-28 14:18:30,596 root:INFO    :: File Numbered 7: OK
+2025-07-28 14:18:30,597 root:INFO    :: Script Ended
+2025-07-28 14:35:55,459 root:INFO    :: Iniciando script
+2025-07-28 14:35:55,460 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 14:35:55,460 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 14:35:55,602 root:INFO    :: File Numbered 1: OK
+2025-07-28 14:35:55,732 root:INFO    :: File Numbered 2: OK
+2025-07-28 14:35:55,870 root:INFO    :: File Numbered 3: OK
+2025-07-28 14:35:56,006 root:INFO    :: File Numbered 4: OK
+2025-07-28 14:35:56,174 root:INFO    :: File Numbered 5: OK
+2025-07-28 14:35:56,327 root:INFO    :: File Numbered 6: OK
+2025-07-28 14:35:56,454 root:INFO    :: File Numbered 7: OK
+2025-07-28 14:35:56,454 root:INFO    :: Script Ended
+2025-07-28 14:50:48,142 root:INFO    :: Iniciando script
+2025-07-28 14:50:48,154 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 14:50:48,155 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 14:51:15,798 root:INFO    :: Iniciando script
+2025-07-28 14:51:15,799 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 14:51:15,799 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 14:51:29,527 root:INFO    :: Iniciando script
+2025-07-28 14:51:29,528 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 14:51:29,528 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 14:51:29,613 root:INFO    :: File Numbered 1: OK
+2025-07-28 14:51:29,689 root:INFO    :: File Numbered 2: OK
+2025-07-28 14:51:29,772 root:INFO    :: File Numbered 3: OK
+2025-07-28 14:51:29,852 root:INFO    :: File Numbered 4: OK
+2025-07-28 14:51:29,932 root:INFO    :: File Numbered 5: OK
+2025-07-28 14:51:30,031 root:INFO    :: File Numbered 6: OK
+2025-07-28 14:51:30,118 root:INFO    :: File Numbered 7: OK
+2025-07-28 14:51:30,118 root:INFO    :: Script Ended
+2025-07-28 14:53:45,396 root:INFO    :: Iniciando script
+2025-07-28 14:53:45,396 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 14:53:45,396 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 14:53:45,479 root:INFO    :: File Numbered 1: OK
+2025-07-28 14:53:45,567 root:INFO    :: File Numbered 2: OK
+2025-07-28 14:53:45,643 root:INFO    :: File Numbered 3: OK
+2025-07-28 14:53:45,725 root:INFO    :: File Numbered 4: OK
+2025-07-28 14:53:45,814 root:INFO    :: File Numbered 5: OK
+2025-07-28 14:53:45,927 root:INFO    :: File Numbered 6: OK
+2025-07-28 14:53:46,015 root:INFO    :: File Numbered 7: OK
+2025-07-28 14:53:46,015 root:INFO    :: Script Ended
+2025-07-28 14:54:55,758 root:INFO    :: Iniciando script
+2025-07-28 14:54:55,758 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 14:54:55,759 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 14:57:11,372 root:INFO    :: Iniciando script
+2025-07-28 14:57:11,373 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 14:57:11,373 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 14:58:20,101 root:INFO    :: Iniciando script
+2025-07-28 14:58:20,102 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 14:58:20,102 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 14:58:20,227 root:INFO    :: File Numbered 1: OK
+2025-07-28 14:58:20,362 root:INFO    :: File Numbered 2: OK
+2025-07-28 14:58:20,490 root:INFO    :: File Numbered 3: OK
+2025-07-28 14:58:20,627 root:INFO    :: File Numbered 4: OK
+2025-07-28 14:58:20,783 root:INFO    :: File Numbered 5: OK
+2025-07-28 14:58:20,963 root:INFO    :: File Numbered 6: OK
+2025-07-28 14:58:21,105 root:INFO    :: File Numbered 7: OK
+2025-07-28 14:58:21,106 root:INFO    :: Script Ended
+2025-07-28 15:13:30,214 root:INFO    :: Iniciando script
+2025-07-28 15:13:30,214 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 15:13:30,215 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 15:15:09,617 root:INFO    :: Iniciando script
+2025-07-28 15:15:09,617 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 15:15:09,618 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 15:15:09,759 root:INFO    :: File Numbered 1: OK
+2025-07-28 15:15:09,890 root:INFO    :: File Numbered 2: OK
+2025-07-28 15:15:10,017 root:INFO    :: File Numbered 3: OK
+2025-07-28 15:15:10,144 root:INFO    :: File Numbered 4: OK
+2025-07-28 15:15:10,272 root:INFO    :: File Numbered 5: OK
+2025-07-28 15:15:10,423 root:INFO    :: File Numbered 6: OK
+2025-07-28 15:15:10,552 root:INFO    :: File Numbered 7: OK
+2025-07-28 15:15:10,552 root:INFO    :: Script Ended
+2025-07-28 22:54:50,762 root:INFO    :: Iniciando script
+2025-07-28 22:54:50,763 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 22:54:50,764 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 22:54:50,843 root:INFO    :: File Numbered 1: OK
+2025-07-28 22:54:50,929 root:INFO    :: File Numbered 2: OK
+2025-07-28 22:54:51,011 root:INFO    :: File Numbered 3: OK
+2025-07-28 22:54:51,094 root:INFO    :: File Numbered 4: OK
+2025-07-28 22:54:51,184 root:INFO    :: File Numbered 5: OK
+2025-07-28 22:54:51,277 root:INFO    :: File Numbered 6: OK
+2025-07-28 22:54:51,358 root:INFO    :: File Numbered 7: OK
+2025-07-28 22:54:51,358 root:INFO    :: Script Ended
+2025-07-28 22:55:35,147 root:INFO    :: Iniciando script
+2025-07-28 22:55:35,148 root:INFO    :: Ya existe un directorio de resultados con ese nombre, se sobreescribirán los archivos
+2025-07-28 22:55:35,148 root:INFO    :: Obteniendo datos del CSV: new_test_data.csv
+2025-07-28 22:55:35,221 root:INFO    :: File Numbered 1: OK
+2025-07-28 22:55:35,308 root:INFO    :: File Numbered 2: OK
+2025-07-28 22:55:35,388 root:INFO    :: File Numbered 3: OK
+2025-07-28 22:55:35,481 root:INFO    :: File Numbered 4: OK
+2025-07-28 22:55:35,632 root:INFO    :: File Numbered 5: OK
+2025-07-28 22:55:35,731 root:INFO    :: File Numbered 6: OK
+2025-07-28 22:55:35,807 root:INFO    :: File Numbered 7: OK
+2025-07-28 22:55:35,807 root:INFO    :: Script Ended
