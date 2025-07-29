@@ -157,8 +157,8 @@ if __name__ == "__main__":
             lon_o_data = getCoordDict(row[3], mode="lon_o")
             lat_d_data = getCoordDict(row[6], mode="lat_d")
             lon_d_data = getCoordDict(row[5], mode="lon_d")
-            freqBand = getOBCheckDict(int(row[11]))
-            typeAntena = getATCheckDict(int(row[12]), apertura = row[10].strip())    
+            freqBand = getOBCheckDict(int(row[14]))
+            typeAntena = getATCheckDict(int(row[14]), apertura = row[12].strip())    
             # Verificando si alguna coordenada no se leyó correctamente
             if len(lat_o_data) != 3:
                 logging.critical("File Numbered {}: Error con Latitud de Origen")
@@ -178,13 +178,13 @@ if __name__ == "__main__":
                 **lon_d_data,
                 **freqBand,
                 **typeAntena,
-                "Texto26": row[8].strip(), #ASNMO
-                #"Texto27" direccion de punto de origen
-                "Texto28": row[9].strip(),  #ASNMF
+                "Texto26": row[11].strip(), #ASNMO
+                "Texto27": row[8].strip(), #direccion de punto inicio
+                "Texto28": row[11].strip(),  #ASNMF
+                "Texto37": row[9], #direccion de punto final
                 #-- CARACTERISTICAS DEL EQUIPO --
-                #"Texto37":  direccion de punto final
-                #"Texto39":  MARCA
-                #"Texto40 :  MODELO
+                "Texto39": row[13].strip(), #MARCA
+                "Texto40": row[10].strip(), #MODELO
                 # Texto41":  POTENCIA
                 #"Texto42":  TIPO MODULACION
                 #-- CARACTERISTICAS DE ANTENA --
