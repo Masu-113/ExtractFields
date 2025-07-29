@@ -152,13 +152,13 @@ if __name__ == "__main__":
     with open(args.csv_file, "r", encoding="utf-8") as csvFile:
         csvData = csv.reader(csvFile, delimiter=";")
         for row in csvData:
-            numOfData = int(row[0])
+            numOfData  = int(row[0])
             lat_o_data = getCoordDict(row[4], mode="lat_o")
             lon_o_data = getCoordDict(row[3], mode="lon_o")
             lat_d_data = getCoordDict(row[6], mode="lat_d")
             lon_d_data = getCoordDict(row[5], mode="lon_d")
-            freqBand = getOBCheckDict(int(row[14]))
-            typeAntena = getATCheckDict(int(row[14]), apertura = row[12].strip())    
+            freqBand   = getOBCheckDict(int(row[22]))
+            typeAntena = getATCheckDict(int(row[22]), apertura = row[12].strip())    
             # Verificando si alguna coordenada no se leyó correctamente
             if len(lat_o_data) != 3:
                 logging.critical("File Numbered {}: Error con Latitud de Origen")
@@ -185,7 +185,7 @@ if __name__ == "__main__":
                 #-- CARACTERISTICAS DEL EQUIPO --
                 "Texto39": row[13].strip(), #MARCA
                 "Texto40": row[10].strip(), #MODELO
-                # Texto41":  POTENCIA
+                #"Texto41":  POTENCIA
                 #"Texto42":  TIPO MODULACION
                 #-- CARACTERISTICAS DE ANTENA --
                 #"Texto43":  ANGULO DE APERTURA
